@@ -24,8 +24,10 @@ Puppet::Functions.create_function(:catalog_url) do
       '10.12'
     when 13
       '10.13'
-    else
+    when 14
       '10.14'
+    else
+      '10.15'
     end
   end
 
