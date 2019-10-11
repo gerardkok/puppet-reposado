@@ -26,8 +26,10 @@ Puppet::Functions.create_function(:os_minor_version) do
       12
     when 'highsierra', '10.13'
       13
-    else
+    when 'mojave', '10.14'
       14
+    else
+      15
     end
   end
 end
