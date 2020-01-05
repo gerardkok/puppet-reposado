@@ -12,7 +12,8 @@ describe 'os_minor_version' do
   it { is_expected.to run.with_params('10.12').and_return(12) }
   it { is_expected.to run.with_params('10.13').and_return(13) }
   it { is_expected.to run.with_params('10.14').and_return(14) }
-  it { is_expected.to run.with_params('10.42').and_return(14) }
+  it { is_expected.to run.with_params('10.15').and_return(15) }
+  it { is_expected.to run.with_params('10.42').and_return(16) }
   it { is_expected.to run.with_params('leopard').and_return(5) }
   it { is_expected.to run.with_params('snowleopard').and_return(6) }
   it { is_expected.to run.with_params('lion').and_return(7) }
@@ -23,5 +24,6 @@ describe 'os_minor_version' do
   it { is_expected.to run.with_params('sierra').and_return(12) }
   it { is_expected.to run.with_params('highsierra').and_return(13) }
   it { is_expected.to run.with_params('mojave').and_return(14) }
-  it { is_expected.to run.with_params('elsnowmountainsierra').and_return(14) }
+  it { is_expected.to run.with_params('catalina').and_return(15) }
+  it { is_expected.to run.with_params('elsnowmountainsierra').and_return(16) }
 end

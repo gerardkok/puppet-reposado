@@ -28,8 +28,10 @@ Puppet::Functions.create_function(:os_minor_version) do
       13
     when 'mojave', '10.14'
       14
-    else
+    when 'catalina', '10.15'
       15
+    else
+      16
     end
   end
 end

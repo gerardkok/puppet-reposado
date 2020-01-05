@@ -1,3 +1,8 @@
+## Release 1.0.3
+
+- support for macOS 10.15 ('Catalina')
+- PDK updated to 1.15.0
+
 ## Release 1.0.2
 
 - support for macOS 10.14 ('Mojave')
